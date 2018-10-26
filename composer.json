@@ -1,10 +1,9 @@
 {
-    "name": "huasituo/laravel-phpquery",
-    "description": "phpQuery是EsQuery的依赖(http://esquery.net/)，phpQuery项目主页:http://code.google.com/p/phpquery/",
-    "homepage": "http://code.google.com/p/phpquery/",
+    "name": "juniorfreitas/phpquery-laravel",
+    "description": "Pacote Laravel PHPQUERY http://code.google.com/p/phpquery/",
     "license": "MIT",
     "require": {
-    	"PHP":">=5.3.0"
+        "PHP":">=5.3.0"
     },
     "authors": [
         {
@@ -12,9 +11,9 @@
             ,"email": "tobiasz.cudnik@gmail.com"
             ,"homepage": "https://github.com/TobiaszCudnik"
             ,"role": "Developer"
-        } 
-        ,{
-            "name": "huasituo",
+        },
+        {
+            "name": "juniorfreitas",
             "role": "Packager"
         }
     ],
