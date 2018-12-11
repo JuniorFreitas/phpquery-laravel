@@ -1069,7 +1069,7 @@ class phpQueryObject
             case 'enabled':
                 $this->elements = $this->map(
                     function ($node) {
-                        return pq($node)->not(":disabled") ? $node : null
+                        return pq($node)->not(":disabled") ? $node : null;
                     }
                 )->elements;
                 break;
