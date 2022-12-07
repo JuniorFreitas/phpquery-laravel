@@ -307,6 +307,8 @@ class phpQueryObject
                 continue;
             if ($input->is('[type=checkbox]') && !$input->is('[checked]'))
                 continue;
+            if ($input->is('[type=radio]') && !$input->is('[checked]'))
+                continue;
             // jquery diff
             if ($submit && $input->is('[type=submit]')) {
                 if ($submit instanceof DOMELEMENT && !$input->elements[0]->isSameNode($submit))
